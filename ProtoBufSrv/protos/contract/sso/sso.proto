@@ -6,7 +6,7 @@ option go_package = "asubbot.sso.v1;ssov1";
 
 service Auth {
     rpc Register (RegisterRequest) returns (RegisterResponse);
-    rpc Logn (LoginRequest) returns (LoginResponse);
+    rpc Login (LoginRequest) returns (LoginResponse);
     rpc IsAdmin (IsAdminRequest) returns (IsAdminResponce);
  }
 
